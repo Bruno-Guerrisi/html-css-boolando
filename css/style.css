@@ -22,12 +22,69 @@ ul{
     display: inline-block;
     width: calc(97% / 3);
     margin: 2px;
-    padding: 5px;
+    /* padding: 5px; */
+}
+
+.image-product{
+    position: relative;
 }
 
 img{
     width: 100%;
-    padding: 5px;
+}
+
+/* DISCOUNT */
+.discount{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* SUSTAINABILITY*/
+.sustainability{
+    position: absolute;
+    bottom: 15px;
+    left: 42px;
+    padding: 2px 4px;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* HEARTS */
+.hearts{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 27px;
+    padding: 5px 12px;
+    background-color: white;
+    color: black;
+}
+
+.hearts:hover{
+    color: red;
+}
+
+/* PRICE */
+.info{
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.original-price{
+    text-decoration: line-through;
 }
 
 /* IMAGE SECTION */
