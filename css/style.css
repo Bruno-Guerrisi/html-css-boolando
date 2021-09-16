@@ -20,67 +20,29 @@ ul{
 
 .product{
     display: inline-block;
-    width: calc(97% / 3); 
-    height: 500px;
+    width: calc(97% / 3);
     margin: 2px;
     padding: 5px;
 }
 
 .image-product{
     width: 100%;
-    height: 100%;
     padding: 5px;
-    background-size: contain;
 }
 
 /* IMAGE SECTION */
 
-/* IMAGE 1 */
-.product-1{
-    background-image: url('../img/1.webp');
+/* IMG 1 */
+.image-1{
+    display: block;
 }
-.product-1:hover{
-    background-image: url('../img/1b.webp');
-}
-
-/* IMAGE 2 */
-.product-2{
-    background-image: url('../img/2.webp');
-}
-.product-2:hover{
-    background-image: url('../img/2b.webp');
+.image-1-b{
+    display: none;
 }
 
-/* IMAGE 3 */
-.product-3{
-    background-image: url('../img/3.webp');
+.image-1:hover{
+    display: none;
 }
-.product-3:hover{
-    background-image: url('../img/3b.webp');
+.image-1-b:hover{
+    display: block;
 }
-
-/* IMAGE 4 */
-.product-4{
-    background-image: url('../img/4.webp');
-}
-.product-4:hover{
-    background-image: url('../img/4b.webp');
-}
-
-/* IMAGE 5 */
-.product-5{
-    background-image: url('../img/5.webp');
-}
-.product-5:hover{
-    background-image: url('../img/5b.webp');
-}
-
-/* IMAGE 6 */
-.product-6{
-    background-image: url('../img/6.webp');
-}
-.product-6:hover{
-    background-image: url('../img/6b.webp');
-}
-
-
